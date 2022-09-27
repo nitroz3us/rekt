@@ -1,9 +1,11 @@
 import requests
 import threading
 
+# find request url via network tab under headers
 url = ""
 
 data = {
+    # form data being sent to site
     "cc_number": "4111111111111111",
     "cc_exp": "12/2020",
     "cc_cvv": "123",
